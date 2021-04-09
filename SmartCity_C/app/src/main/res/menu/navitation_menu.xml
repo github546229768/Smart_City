@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/shouye"
+        android:title="首页"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/serviceFragment"
+        android:icon="@drawable/fuwu"
+        android:title="全部服务" />
+    <item
+        android:id="@+id/newsFragment"
+        android:icon="@drawable/xinwen"
+        android:title="新闻" />
+    <item
+        android:id="@+id/activeFragment"
+        android:icon="@drawable/fuwu5"
+        android:title="活动" />
+    <item
+        android:id="@+id/personalFragment"
+        android:icon="@drawable/gerenzhongxin"
+        android:title="个人中心" />
+</menu>

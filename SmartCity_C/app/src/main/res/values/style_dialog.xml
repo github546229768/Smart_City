@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/exit</item>
+    </style>
+    <style name="dialog_transparent">
+            <!--窗口背景透明-->
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <!--弹窗背景是否变暗-->
+            <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

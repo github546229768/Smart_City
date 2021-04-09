@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynavigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.smartcity_c.ui.fragment.HomeFragment"
+        android:label="主页"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.example.smartcity_c.ui.fragment.ServiceFragment"
+        android:label="全部服务" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.smartcity_c.ui.fragment.NewsFragment"
+        android:label="新闻" />
+    <fragment
+        android:id="@+id/activeFragment"
+        android:name="com.example.smartcity_c.ui.fragment.ActiveFragment"
+        android:label="活动" />
+    <fragment
+        android:id="@+id/personalFragment"
+        android:name="com.example.smartcity_c.ui.fragment.PersonalFragment"
+        android:label="个人中心" />
+</navigation>
